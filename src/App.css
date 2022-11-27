@@ -6,9 +6,8 @@
 }
 
 .home,
-.services,
-.products,
-.sign-up {
+.last-minute,
+.destinations {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -16,8 +15,8 @@
   font-size: 3rem;
 }
 
-.services {
-  background-image: url('/src/assets/images/img-2.jpg');
+.last-minute {
+  background-image: url('assets/images/img-2.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -25,17 +24,8 @@
   font-size: 100px;
 }
 
-.products {
-  background-image: url('/src/assets/images/img-1.jpg');
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
-.sign-up {
-  background-image: url('/src/assets/images/img-8.jpg');
+.destinations {
+  background-image: url('assets/images/img-1.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

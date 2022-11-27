@@ -32,14 +32,6 @@ video {
   'Lucida Sans', Arial, sans-serif;
 }
 
-.hero-btns {
-  margin-top: 32px;
-}
-
-.hero-btns .btn {
-  margin: 6px;
-}
-
 .fa-play-circle {
   margin-left: 4px;
 }
@@ -59,14 +51,5 @@ video {
 
   .hero-container > p {
     font-size: 30px;
-  }
-
-  .btn-mobile {
-    display: block;
-    text-decoration: none;
-  }
-
-  .btn {
-    width: 100%;
   }
 }

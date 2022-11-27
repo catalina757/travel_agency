@@ -1,6 +1,5 @@
 import React from 'react';
 import './Footer.css';
-import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import logo from '../assets/logo.png';
 
@@ -17,7 +16,6 @@ function Footer() {
         <div className='input-areas'>
           <form>
             <input className='footer-input' name='email' type='email' placeholder='Your Email' />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
           </form>
         </div>
       </section>
@@ -25,7 +23,6 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>About Us</h2>
-            <Link to='/sign-up'>How it works</Link>
             <Link to='/'>Testimonials</Link>
             <Link to='/'>Careers</Link>
             <Link to='/'>Investors</Link>
