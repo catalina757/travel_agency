@@ -32,7 +32,6 @@ function Navbar() {
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             Travel website
             <img className='logo' alt='Logo' src={logo} />
-            {/*<i className='fab fa-typo3' />*/}
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />

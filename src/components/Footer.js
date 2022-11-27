@@ -2,6 +2,7 @@ import React from 'react';
 import './Footer.css';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
+import logo from '../assets/logo.png';
 
 function Footer() {
   return (
@@ -60,7 +61,7 @@ function Footer() {
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
               Travel website
-              <i className='fab fa-typo3' />
+              <img className='logo' alt='Logo' src={logo} />
             </Link>
           </div>
           <small className='website-rights'>Travel website © 2022</small>
